@@ -1,3 +1,5 @@
+package algorithms;
+
 public class ArithmeticSolver {
     public static int computeExpression(String input) {
         int total = 0;

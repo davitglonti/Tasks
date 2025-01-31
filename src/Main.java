@@ -1,3 +1,9 @@
+import algorithms.ArithmeticSolver;
+import algorithms.HappyString;
+import algorithms.IntersectionFinder;
+import algorithms.LongestSubarray;
+import validators.SequenceValidator;
+
 import java.util.List;
 import java.util.Arrays;
 
@@ -35,13 +41,9 @@ public class Main {
 
         int[] array = {8, 4, 8, 8, 5, 1};
         int k = 8;
-
-
         int resultss = LongestSubarray.lenOfLongSubarr(array, k);
 
-
         System.out.println(resultss);
-
         //
 
         //6 Task
@@ -53,6 +55,5 @@ public class Main {
         System.out.println(resultsss);  // true
     }
 
-
-    }
+}
 

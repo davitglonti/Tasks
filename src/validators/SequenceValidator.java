@@ -1,3 +1,5 @@
+package validators;
+
 public class SequenceValidator {
     public static boolean isValidSequence(int[] array, int[] sequence) {
         int seqIndex = 0;
